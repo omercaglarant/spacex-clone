@@ -189,7 +189,33 @@ section {
     animation: fadeBounce 5s infinite;
 }
 
-/* 8. Animations */
+/* 8. Footer */
+
+footer {
+    position: relative;
+    padding: 55px 0;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer ul li {
+    margin-right: 30px;
+    color: #aaa;
+    text-transform: uppercase;
+    line-height: 2.5;
+}
+footer ul li a {
+    color: #fff;
+    transition: color 0.6s;
+}
+footer ul li a:hover {
+    color: #aaa;
+}
+
+/* 9. Animations */
 
 @keyframes fadeInUp {
     0% {
