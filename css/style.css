@@ -355,7 +355,28 @@ footer ul li a:hover {
 .section-inner-center p {
     font-size: 20px;
     animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
 }
+
+.stats {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.stats div span {
+    font-size: 160px;
+}
+
+.stats div h4 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
 
 /* 9. Animations */
 
