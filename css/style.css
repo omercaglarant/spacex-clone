@@ -433,6 +433,9 @@ footer ul li a:hover {
     .mobile-only {
          display: block;
     }
+    .section-inner-center h3 {
+        font-size: 75px;
+    }
 
 }
 
@@ -458,6 +461,18 @@ footer ul li a:hover {
     .logo {
         width: 150px;
         margin: auto;
+    }
+    .section-inner-center {
+        width: 80%;
+    }
+    .section-inner-center h3 {
+        font-size: 50px;
+    }
+    .stats {
+        flex-direction: column;
+    }
+    .stats div {
+        margin-bottom: 20px;
     }
 }
 
